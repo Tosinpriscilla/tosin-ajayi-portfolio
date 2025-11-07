@@ -167,7 +167,9 @@ export function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                 <ImageWithFallback
                   src={caseStudy.image}
                   alt={caseStudy.title}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                 />
               </div>
             </motion.div>
@@ -719,11 +721,13 @@ export function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                           </div>
                         </div>
 
-                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 aspect-video flex items-center justify-center shadow-inner">
+                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 aspect-video flex items-center justify-center shadow-inner relative">
                           <ImageWithFallback
                             src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxza2V0Y2glMjB3aXJlZnJhbWUlMjBwYXBlcnxlbnwxfHx8fDE3NjE1NzU3MjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                             alt="Low fidelity wireframes"
-                            className="w-full h-full object-cover"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                           />
                         </div>
 
@@ -778,11 +782,13 @@ export function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                           </div>
                         </div>
 
-                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 aspect-video flex items-center justify-center shadow-inner">
+                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 aspect-video flex items-center justify-center shadow-inner relative">
                           <ImageWithFallback
                             src="https://images.unsplash.com/photo-1629494893504-d41e26a02631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1c2VyJTIwaW50ZXJmYWNlJTIwbW9ja3VwfGVufDF8fHx8MTc2MTUwNjA2MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                             alt="Mid fidelity wireframes"
-                            className="w-full h-full object-cover"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                           />
                         </div>
 
@@ -838,11 +844,13 @@ export function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                           </div>
                         </div>
 
-                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 to-slate-800 aspect-video flex items-center justify-center shadow-2xl">
+                        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 to-slate-800 aspect-video flex items-center justify-center shadow-2xl relative">
                           <ImageWithFallback
                             src={caseStudy.image}
                             alt="High fidelity mockups"
-                            className="w-full h-full object-cover"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                           />
                         </div>
 
@@ -968,11 +976,13 @@ export function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                   </div>
                 </div>
                 <div className="order-1 md:order-2">
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
+                  <div className="rounded-2xl overflow-hidden shadow-xl relative h-64">
                     <ImageWithFallback
                       src="https://images.unsplash.com/photo-1690191863988-f685cddde463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMGRlc2lnbiUyMHdvcmtzaG9wfGVufDF8fHx8MTc2MTU4MzUyMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                       alt="Usability testing"
-                      className="w-full h-64 object-cover"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </div>
                 </div>
