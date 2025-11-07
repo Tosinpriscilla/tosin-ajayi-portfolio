@@ -1,12 +1,14 @@
 import { motion } from "motion/react";
 import { Award, Sparkles } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "@/components/figma/ImageWithFallback";
 import { Card } from "@/components/ui/card";
 
 export function AboutMe() {
-
   return (
-    <section id="about" className="py-16 bg-gradient-to-b from-white to-slate-50">
+    <section
+      id="about"
+      className="py-16 bg-gradient-to-b from-white to-slate-50"
+    >
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
@@ -18,7 +20,9 @@ export function AboutMe() {
           >
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-1 bg-slate-900 rounded-full" />
-              <span className="text-slate-900 uppercase tracking-wider font-semibold">About Me</span>
+              <span className="text-slate-900 uppercase tracking-wider font-semibold">
+                About Me
+              </span>
             </div>
           </motion.div>
 
@@ -42,7 +46,9 @@ export function AboutMe() {
                   <div className="bg-white/95 backdrop-blur rounded-xl p-4">
                     <div className="flex items-center gap-2 mb-1">
                       <Sparkles className="w-4 h-4 text-slate-900" />
-                      <span className="text-xs font-semibold text-slate-900 uppercase tracking-wide">Senior Product Designer</span>
+                      <span className="text-xs font-semibold text-slate-900 uppercase tracking-wide">
+                        Senior Product Designer
+                      </span>
                     </div>
                     <h3 className="text-slate-900">Priscilla Ajayi</h3>
                   </div>
@@ -60,13 +66,16 @@ export function AboutMe() {
             >
               <div>
                 <p className="text-slate-700 text-lg leading-relaxed mb-4">
-                  My design philosophy centers on empathy and inclusivity. I believe great design solves 
-                  real problems for real people—especially those often overlooked.
+                  My design philosophy centers on empathy and inclusivity. I
+                  believe great design solves real problems for real
+                  people—especially those often overlooked.
                 </p>
-                
+
                 <p className="text-slate-600 leading-relaxed">
-                  Through rigorous user research, iterative prototyping, and data-driven validation, I transform complex challenges 
-                  into intuitive, delightful solutions that drive measurable business impact.
+                  Through rigorous user research, iterative prototyping, and
+                  data-driven validation, I transform complex challenges into
+                  intuitive, delightful solutions that drive measurable business
+                  impact.
                 </p>
               </div>
 
@@ -78,9 +87,11 @@ export function AboutMe() {
                   <div>
                     <h4 className="font-semibold mb-1">Professional Impact</h4>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      I've collaborated with cross-functional teams at startups and established organizations to 
-                      deliver products that improved conversion rates by up to 45%, reduced user errors by 60%, 
-                      and increased customer satisfaction significantly.
+                      I&apos;ve collaborated with cross-functional teams at
+                      startups and established organizations to deliver products
+                      that improved conversion rates by up to 45%, reduced user
+                      errors by 60%, and increased customer satisfaction
+                      significantly.
                     </p>
                   </div>
                 </div>
@@ -96,12 +107,17 @@ export function AboutMe() {
                     "Led redesign of banking app used by 2M+ UK customers",
                     "Designed NHS-compliant healthcare portal improving patient access",
                     "Reduced checkout abandonment by 42% through UX optimization",
-                    "Mentor at Design for Good, supporting inclusive design practices"
+                    "Mentor at Design for Good, supporting inclusive design practices",
                   ].map((achievement, i) => (
-                    <Card key={i} className="p-4 bg-white border-slate-200 hover:border-slate-900 transition-colors">
+                    <Card
+                      key={i}
+                      className="p-4 bg-white border-slate-200 hover:border-slate-900 transition-colors"
+                    >
                       <div className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-slate-900 rounded-full mt-2 flex-shrink-0" />
-                        <span className="text-slate-700 text-sm leading-relaxed">{achievement}</span>
+                        <span className="text-slate-700 text-sm leading-relaxed">
+                          {achievement}
+                        </span>
                       </div>
                     </Card>
                   ))}

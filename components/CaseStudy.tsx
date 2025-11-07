@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "@/components/figma/ImageWithFallback";
 import { ReactNode } from "react";
 import Link from "next/link";
 
