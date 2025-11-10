@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Priscilla Ajayi - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website showcasing UX/UI design work and case studies. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🎨 About
 
+This portfolio highlights the work of Priscilla Ajayi, a Senior UI/UX Designer with 5+ years of experience designing accessible, user-centered digital products across Fintech, Healthcare, and E-commerce sectors.
+
+## ✨ Features
+
+- **Modern Tech Stack**: Built with Next.js 15 (App Router), TypeScript, and Tailwind CSS
+- **Server-Side Rendering**: Fast page loads and optimal SEO
+- **Static Site Generation**: Pre-rendered case study pages for best performance
+- **Responsive Design**: Fully responsive across all devices
+- **Smooth Animations**: Powered by Framer Motion for delightful interactions
+- **Accessible**: Follows WCAG guidelines for accessibility
+- **Component Library**: Uses Radix UI and shadcn/ui for robust, accessible components
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-nextjs
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+portfolio-nextjs/
+├── app/                      # Next.js App Router pages
+│   ├── case-studies/        # Dynamic case study routes
+│   ├── layout.tsx           # Root layout with metadata
+│   ├── page.tsx             # Home page
+│   └── globals.css          # Global styles
+├── components/              # React components
+│   ├── ui/                  # Reusable UI components (shadcn/ui)
+│   ├── figma/               # Figma-related components
+│   ├── finpay/              # FinPay case study components
+│   ├── shopsphere/          # ShopSphere case study components
+│   ├── healthhub/           # HealthHub case study components
+│   ├── travelease/          # TravelEase case study components
+│   ├── foodhub/             # FoodHub case study components
+│   ├── fitpro/              # FitPro case study components
+│   ├── Navigation.tsx       # Main navigation component
+│   ├── Hero.tsx             # Hero section
+│   ├── AboutMe.tsx          # About section
+│   ├── CaseStudy.tsx        # Case study card component
+│   ├── CaseStudyDetail.tsx  # Case study detail page
+│   └── Contact.tsx          # Contact form section
+├── lib/                     # Utility functions and data
+│   ├── case-studies.ts      # Case study data and queries
+│   ├── metadata.ts          # SEO metadata utilities
+│   └── utils.ts             # Helper functions
+└── public/                  # Static assets
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Case Studies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The portfolio includes detailed case studies for:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **FinPay** - Mobile Banking Revolution
+2. **ShopSphere** - E-commerce Platform Redesign
+3. **HealthHub** - Healthcare Portal (Coming Soon)
+4. **TravelEase** - Travel Booking Experience (Coming Soon)
+5. **FoodHub** - Food Delivery App (Coming Soon)
+6. **FitPro** - Fitness Tracking Application (Coming Soon)
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **UI Components**: [Radix UI](https://www.radix-ui.com/) + [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🚢 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Click "Add New" → "Project"
+4. Import your repository
+5. Set **Root Directory** to `portfolio-nextjs` (important!)
+6. Click "Deploy"
+7. Your site will be live in 2-3 minutes!
+
+### Environment Variables
+
+No environment variables are required for basic deployment. If you add analytics or contact form integrations, create a `.env.local` file:
+
+```bash
+# Example
+NEXT_PUBLIC_ANALYTICS_ID=your_analytics_id
+```
+
+## 🔧 Customization
+
+### Update Contact Information
+
+Edit `components/Contact.tsx` to update:
+- Email address
+- Location
+- Social media links (LinkedIn, GitHub, Twitter)
+
+### Add/Edit Case Studies
+
+Edit `lib/case-studies.ts` to:
+- Add new case studies
+- Update existing case study content
+- Modify case study metadata
+
+### Update Personal Information
+
+Edit `components/Hero.tsx` and `components/AboutMe.tsx` to update:
+- Bio and introduction
+- Years of experience
+- Skills and expertise
+- Professional achievements
+
+## 📄 License
+
+This portfolio is for personal use by Priscilla Ajayi. All rights reserved.
+
+## 🤝 Support
+
+For questions or issues, please contact through the portfolio website's contact form.
+
+---
+
+**Built with ❤️ using Next.js**

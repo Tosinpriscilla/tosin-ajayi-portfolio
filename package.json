@@ -1,6 +1,8 @@
 {
-  "name": "portfolio-nextjs",
-  "version": "0.1.0",
+  "name": "priscilla-ajayi-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Priscilla Ajayi - Senior UI/UX Designer specializing in accessible, user-centered digital products",
+  "author": "Priscilla Ajayi",
   "private": true,
   "scripts": {
     "dev": "next dev",
