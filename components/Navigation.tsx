@@ -51,7 +51,7 @@ export function Navigation() {
 
   const navItems = [
     { label: "About", id: "about" },
-    { label: "Work", id: "case-studies" },
+    { label: "Work", id: "work" },
     { label: "Contact", id: "contact" },
   ];
 
