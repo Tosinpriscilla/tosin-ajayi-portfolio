@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import { CaseStudyDetail } from "@/components/CaseStudyDetail";
-import { Navigation } from "@/components/Navigation";
 import { Contact } from "@/components/Contact";
 import { getCaseStudyBySlug } from "@/lib/case-studies";
 
@@ -25,7 +24,6 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
       <CaseStudyDetail caseStudy={caseStudyData} />
       <Contact />
     </div>
