@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -59,9 +59,16 @@ export function Contact() {
 
   const socialLinks = [
     { icon: Mail, label: "Email", href: "mailto:pritosajayi@gmail.com" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Github, label: "GitHub", href: "https://github.com" },
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+    {
+      icon: Linkedin,
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/priscillaajayi",
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      href: "https://instagram.com/ajayipriscilla",
+    },
   ];
 
   return (
