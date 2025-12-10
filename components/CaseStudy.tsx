@@ -31,7 +31,7 @@ export function CaseStudy({
 }: CaseStudyProps) {
   const cardContent = (
     <Card
-      className={`overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-shadow duration-300 group h-full flex flex-col ${comingSoon ? "" : "cursor-pointer"}`}
+      className={`overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-shadow duration-300 group h-full flex flex-col w-full ${comingSoon ? "" : "cursor-pointer"}`}
     >
       <div className="relative overflow-hidden aspect-video">
         {customThumbnail ? (
@@ -46,13 +46,13 @@ export function CaseStudy({
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
-        <div className="absolute bottom-6 left-6 right-6">
-          <div className="flex flex-wrap gap-2 mb-3">
+        <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6">
+          <div className="flex flex-wrap gap-2 mb-2 sm:mb-3">
             {tags.map((tag) => (
               <Badge
                 key={tag}
                 variant="secondary"
-                className="bg-white/90 text-slate-900 backdrop-blur-sm"
+                className="bg-white/90 text-slate-900 backdrop-blur-sm max-w-full truncate"
               >
                 {tag}
               </Badge>
@@ -61,14 +61,18 @@ export function CaseStudy({
         </div>
       </div>
 
-      <div className="p-6 flex flex-col flex-grow">
-        <h3 className="mb-3 text-slate-900 group-hover:text-slate-700 transition-colors">
+      <div className="p-4 sm:p-6 flex flex-col flex-grow min-w-0">
+        <h3 className="mb-3 text-slate-900 group-hover:text-slate-700 transition-colors break-words">
           {title}
         </h3>
-        <p className="text-slate-600 mb-4 flex-grow">{description}</p>
-        <div className="mb-4 p-4 bg-slate-50 rounded-lg">
+        <p className="text-slate-600 mb-4 flex-grow break-words overflow-wrap-anywhere">
+          {description}
+        </p>
+        <div className="mb-4 p-3 sm:p-4 bg-slate-50 rounded-lg min-w-0">
           <p className="text-slate-500 mb-1">Outcome</p>
-          <p className="text-slate-900">{outcome}</p>
+          <p className="text-slate-900 break-words overflow-wrap-anywhere">
+            {outcome}
+          </p>
         </div>
         {comingSoon ? (
           <div className="flex items-center text-red-600">
@@ -90,12 +94,15 @@ export function CaseStudy({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="h-full"
+      className="h-full w-full min-w-0"
     >
       {comingSoon || !slug ? (
         cardContent
       ) : (
-        <Link href={`/case-studies/${slug}`} className="block h-full">
+        <Link
+          href={`/case-studies/${slug}`}
+          className="block h-full w-full min-w-0"
+        >
           {cardContent}
         </Link>
       )}

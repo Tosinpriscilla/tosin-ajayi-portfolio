@@ -23,10 +23,10 @@ export default function HomePage() {
       <AboutMe />
 
       {/* Featured Work Section */}
-      <section id="work" className="py-20">
-        <div className="container mx-auto px-6">
+      <section id="work" className="py-20 w-full overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="mb-12">Featured Work</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {caseStudies.map((study, index) => {
               const isComingSoon = study.comingSoon;
 
@@ -49,18 +49,19 @@ export default function HomePage() {
               }
 
               return (
-                <CaseStudy
-                  key={study.id}
-                  title={study.title}
-                  description={study.description}
-                  image={study.image}
-                  customThumbnail={customThumbnail}
-                  tags={study.tags}
-                  outcome={study.outcome}
-                  index={index}
-                  comingSoon={isComingSoon}
-                  slug={study.slug}
-                />
+                <div key={study.id} className="min-w-0">
+                  <CaseStudy
+                    title={study.title}
+                    description={study.description}
+                    image={study.image}
+                    customThumbnail={customThumbnail}
+                    tags={study.tags}
+                    outcome={study.outcome}
+                    index={index}
+                    comingSoon={isComingSoon}
+                    slug={study.slug}
+                  />
+                </div>
               );
             })}
           </div>
