@@ -1,17 +1,27 @@
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
+    // Check if API key is configured
+    if (!process.env.RESEND_API_KEY) {
+      return NextResponse.json(
+        {
+          error:
+            "Email service is not configured. Please contact the site administrator.",
+        },
+        { status: 503 },
+      );
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { name, email, message } = await request.json();
 
     // Validate input
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "All fields are required" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -34,19 +44,19 @@ export async function POST(request: NextRequest) {
       console.error("Resend error:", error);
       return NextResponse.json(
         { error: "Failed to send email" },
-        { status: 500 }
+        { status: 500 },
       );
     }
 
     return NextResponse.json(
       { success: true, message: "Email sent successfully" },
-      { status: 200 }
+      { status: 200 },
     );
   } catch (error) {
     console.error("Error sending email:", error);
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
