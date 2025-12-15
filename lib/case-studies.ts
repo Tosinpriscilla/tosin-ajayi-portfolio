@@ -235,7 +235,7 @@ export const caseStudies: CaseStudy[] = [
           },
         ],
         keyInsight:
-          "All competitors failed to optimize for elderly and disabled users—a significant market gap. By combining Starling's accessibility foundation with Monzo's user-friendly approach and adding biometric quick actions, FinPay could uniquely serve both tech-savvy users and underserved accessibility-focused segments.",
+          "All competitors failed to optimize for elderly and disabled users: a significant market gap. By combining Starling's accessibility foundation with Monzo's user-friendly approach and adding biometric quick actions, FinPay could uniquely serve both tech-savvy users and underserved accessibility-focused segments.",
       },
       challenge:
         "FinPay, a leading UK digital bank, was experiencing high drop-off rates during money transfers and poor user engagement. Users found the interface confusing, and the transaction process was unnecessarily complex with multiple steps.",
@@ -301,7 +301,7 @@ export const caseStudies: CaseStudy[] = [
         ],
         testimonial: {
           quote:
-            "Priscilla transformed our app from frustrating to delightful. The redesign didn't just improve metrics—it fundamentally changed how our users feel about digital banking. The attention to accessibility and user confidence was exceptional.",
+            "Priscilla transformed our app from frustrating to delightful. The redesign didn't just improve metrics; it fundamentally changed how our users feel about digital banking. The attention to accessibility and user confidence was exceptional.",
           author: "Sarah Chen",
           role: "Head of Product, FinPay",
         },
@@ -464,7 +464,7 @@ export const caseStudies: CaseStudy[] = [
               "User surveys",
             ],
             outcomes:
-              "Identified that 68% of users struggled to locate transfer functions, and 85% wanted biometric authentication—critical insights that shaped the entire redesign.",
+              "Identified that 68% of users struggled to locate transfer functions, and 85% wanted biometric authentication, critical insights that shaped the entire redesign.",
           },
           {
             name: "Define & Synthesise",
@@ -511,7 +511,7 @@ export const caseStudies: CaseStudy[] = [
           {
             name: "Test & Iterate",
             description:
-              "I conducted 6 rounds of usability testing with 56 participants, observing real users attempting core tasks. Each round revealed insights that refined the design—from adjusting button sizes after watching James struggle with tap targets, to repositioning the Quick Transfer feature after users consistently overlooked it. I used think-aloud protocols to understand mental models and measured task success rates to quantify improvements. This iterative testing approach prevented costly mistakes and ensured the final design truly met user needs.",
+              "I conducted 6 rounds of usability testing with 56 participants, observing real users attempting core tasks. Each round revealed insights that refined the design: from adjusting button sizes after watching James struggle with tap targets, to repositioning the Quick Transfer feature after users consistently overlooked it. I used think-aloud protocols to understand mental models and measured task success rates to quantify improvements. This iterative testing approach prevented costly mistakes and ensured the final design truly met user needs.",
             activities: [
               "Moderated usability testing",
               "A/B testing",
@@ -561,7 +561,7 @@ export const caseStudies: CaseStudy[] = [
       },
       problemStatement: {
         challenge:
-          "ShopSphere, a UK fashion retailer with 500K monthly visitors, suffered from a 73% checkout abandonment rate—significantly higher than the 69% industry average. Mobile users faced a broken experience with 45% form error rates, and the platform completely excluded users with disabilities due to accessibility failures.",
+          "ShopSphere, a UK fashion retailer with 500K monthly visitors, suffered from a 73% checkout abandonment rate, significantly higher than the 69% industry average. Mobile users faced a broken experience with 45% form error rates, and the platform completely excluded users with disabilities due to accessibility failures.",
         context:
           "With 68% of traffic from mobile devices and competitors offering seamless experiences, ShopSphere risked losing market share. The business needed to modernize quickly to stay competitive while expanding to an underserved accessible market worth £249 billion in the UK.",
         userNeeds: [
@@ -620,7 +620,7 @@ export const caseStudies: CaseStudy[] = [
           },
         ],
         keyInsight:
-          "No competitor successfully combined mobile excellence with accessibility compliance. By merging ASOS's mobile-first checkout with Next's accessibility standards and implementing transparent pricing, ShopSphere could uniquely serve both mainstream mobile shoppers and the underserved accessible e-commerce market—reducing abandonment while expanding addressable audience.",
+          "No competitor successfully combined mobile excellence with accessibility compliance. By merging ASOS's mobile-first checkout with Next's accessibility standards and implementing transparent pricing, ShopSphere could uniquely serve both mainstream mobile shoppers and the underserved accessible e-commerce market, reducing abandonment while expanding addressable audience.",
       },
       challenge:
         "ShopSphere, a major UK fashion retailer, had a checkout abandonment rate of 73%, well above the industry average. Users complained about a confusing checkout process, unexpected costs, and poor mobile experience. The platform also failed to meet accessibility standards, excluding users with disabilities. With over 68% of traffic coming from mobile devices, responsive design was critical.",
@@ -687,7 +687,7 @@ export const caseStudies: CaseStudy[] = [
         ],
         testimonial: {
           quote:
-            "The redesign didn't just improve our metrics—it fundamentally transformed our business. We're now the go-to fashion retailer for accessible shopping, and our mobile revenue has doubled. Priscilla's commitment to inclusive design opened an entirely new market for us.",
+            "The redesign didn't just improve our metrics; it fundamentally transformed our business. We're now the go-to fashion retailer for accessible shopping, and our mobile revenue has doubled. Priscilla's commitment to inclusive design opened an entirely new market for us.",
           author: "Michael Foster",
           role: "Head of Digital, ShopSphere",
         },
@@ -812,8 +812,7 @@ export const caseStudies: CaseStudy[] = [
         },
         {
           title: "Guest Checkout",
-          description:
-            "Quick checkout option without forced account creation",
+          description: "Quick checkout option without forced account creation",
         },
         {
           title: "Full Accessibility",
@@ -884,7 +883,7 @@ export const caseStudies: CaseStudy[] = [
           {
             name: "Test & Refine",
             description:
-              "I conducted extensive testing across devices and user types. Four rounds of moderated testing with 32 participants included mobile shoppers testing on their own devices, screen reader users navigating with assistive technology, and elderly users evaluating clarity and usability. Each round revealed critical insights that refined the design—from sticky cost summaries on mobile to improved form error announcements for screen readers.",
+              "I conducted extensive testing across devices and user types. Four rounds of moderated testing with 32 participants included mobile shoppers testing on their own devices, screen reader users navigating with assistive technology, and elderly users evaluating clarity and usability. Each round revealed critical insights that refined the design, from sticky cost summaries on mobile to improved form error announcements for screen readers.",
             activities: [
               "Multi-device usability testing",
               "Accessibility testing",
@@ -916,14 +915,22 @@ export const caseStudies: CaseStudy[] = [
       team: "2 Designers, 5 Developers, 1 PM",
       overview: {
         role: "Lead Product Designer",
-        team: ["Product Manager", "2 UX Designers", "5 Engineers", "Medical Advisor"],
+        team: [
+          "Product Manager",
+          "2 UX Designers",
+          "5 Engineers",
+          "Medical Advisor",
+        ],
         tools: ["Figma", "Miro", "UserTesting", "Mixpanel"],
         timeline: "20 weeks (Coming Soon)",
-        objective: "Design an intuitive telemedicine platform that simplifies healthcare access.",
+        objective:
+          "Design an intuitive telemedicine platform that simplifies healthcare access.",
       },
       problemStatement: {
-        challenge: "Patients struggled with complex booking systems and poor communication.",
-        context: "Healthcare access needed modernization for digital-first patients.",
+        challenge:
+          "Patients struggled with complex booking systems and poor communication.",
+        context:
+          "Healthcare access needed modernization for digital-first patients.",
         userNeeds: [
           "Simple appointment booking",
           "Clear communication with providers",
@@ -933,10 +940,12 @@ export const caseStudies: CaseStudy[] = [
       competitiveAnalysis: {
         title: "Telemedicine Platforms",
         competitors: [],
-        keyInsight: "Opportunity to combine simplicity with comprehensive healthcare features.",
+        keyInsight:
+          "Opportunity to combine simplicity with comprehensive healthcare features.",
       },
       challenge: "Complex booking and poor patient-provider communication.",
-      solution: "Streamlined telemedicine platform with intuitive booking flow.",
+      solution:
+        "Streamlined telemedicine platform with intuitive booking flow.",
       solutionDetails: {
         description: "Coming soon - comprehensive case study in development.",
         keyFeatures: [],
@@ -954,7 +963,10 @@ export const caseStudies: CaseStudy[] = [
           role: "HealthHub",
         },
       },
-      businessGoals: ["Improve booking efficiency", "Increase patient satisfaction"],
+      businessGoals: [
+        "Improve booking efficiency",
+        "Increase patient satisfaction",
+      ],
       researchProcess: "Comprehensive healthcare UX research in progress.",
       researchMethods: [],
       insights: [],
@@ -963,7 +975,8 @@ export const caseStudies: CaseStudy[] = [
       journeyDescription: "Patient journey mapping in progress.",
       journeyStages: [],
       designApproach: "User-centered healthcare design methodology.",
-      testingApproach: "Multi-phase usability testing with patients and providers.",
+      testingApproach:
+        "Multi-phase usability testing with patients and providers.",
       testingMetrics: [],
       taskSuccessRate: "TBD",
       testingFindings: [],
@@ -999,10 +1012,12 @@ export const caseStudies: CaseStudy[] = [
         team: ["3 UX/UI Designers", "4 Engineers", "Fitness Advisor"],
         tools: ["Figma", "Principle", "Firebase Analytics"],
         timeline: "16 weeks (Coming Soon)",
-        objective: "Create engaging fitness app with social motivation features.",
+        objective:
+          "Create engaging fitness app with social motivation features.",
       },
       problemStatement: {
-        challenge: "Users lacked motivation and struggled with tracking consistency.",
+        challenge:
+          "Users lacked motivation and struggled with tracking consistency.",
         context: "Fitness apps needed better engagement and social features.",
         userNeeds: [
           "Personalized workout plans",
@@ -1013,10 +1028,12 @@ export const caseStudies: CaseStudy[] = [
       competitiveAnalysis: {
         title: "Fitness Apps",
         competitors: [],
-        keyInsight: "Opportunity to combine personalization with social motivation.",
+        keyInsight:
+          "Opportunity to combine personalization with social motivation.",
       },
       challenge: "Low user engagement and retention in fitness tracking.",
-      solution: "Social fitness platform with personalized plans and gamification.",
+      solution:
+        "Social fitness platform with personalized plans and gamification.",
       solutionDetails: {
         description: "Coming soon - detailed case study in development.",
         keyFeatures: [],
@@ -1079,11 +1096,14 @@ export const caseStudies: CaseStudy[] = [
         team: ["Product Manager", "2 UX Designers", "6 Engineers"],
         tools: ["Figma", "Notion", "Hotjar", "Amplitude"],
         timeline: "24 weeks (Coming Soon)",
-        objective: "Create collaborative travel planning platform with smart recommendations.",
+        objective:
+          "Create collaborative travel planning platform with smart recommendations.",
       },
       problemStatement: {
-        challenge: "Trip planning was fragmented across multiple tools and platforms.",
-        context: "Travelers needed unified platform for planning and collaboration.",
+        challenge:
+          "Trip planning was fragmented across multiple tools and platforms.",
+        context:
+          "Travelers needed unified platform for planning and collaboration.",
         userNeeds: [
           "Collaborative itinerary planning",
           "Budget tracking and splitting",
@@ -1093,7 +1113,8 @@ export const caseStudies: CaseStudy[] = [
       competitiveAnalysis: {
         title: "Travel Planning Platforms",
         competitors: [],
-        keyInsight: "Opportunity to unify planning, collaboration, and recommendations.",
+        keyInsight:
+          "Opportunity to unify planning, collaboration, and recommendations.",
       },
       challenge: "Fragmented trip planning across multiple disconnected tools.",
       solution: "Unified collaborative platform with smart recommendations.",
@@ -1114,7 +1135,10 @@ export const caseStudies: CaseStudy[] = [
           role: "TravelEase",
         },
       },
-      businessGoals: ["Increase trip completion rates", "Improve user engagement"],
+      businessGoals: [
+        "Increase trip completion rates",
+        "Improve user engagement",
+      ],
       researchProcess: "Travel behavior research in progress.",
       researchMethods: [],
       insights: [],
@@ -1159,10 +1183,12 @@ export const caseStudies: CaseStudy[] = [
         team: ["2 UX/UI Designers", "5 Engineers", "Culinary Advisor"],
         tools: ["Figma", "Maze", "Firebase", "Mixpanel"],
         timeline: "16 weeks (Coming Soon)",
-        objective: "Create intelligent recipe discovery with meal planning features.",
+        objective:
+          "Create intelligent recipe discovery with meal planning features.",
       },
       problemStatement: {
-        challenge: "Users struggled to find recipes matching their preferences and pantry.",
+        challenge:
+          "Users struggled to find recipes matching their preferences and pantry.",
         context: "Recipe apps needed better personalization and meal planning.",
         userNeeds: [
           "Smart recipe recommendations",
@@ -1173,7 +1199,8 @@ export const caseStudies: CaseStudy[] = [
       competitiveAnalysis: {
         title: "Recipe Apps",
         competitors: [],
-        keyInsight: "Opportunity to combine AI recommendations with practical meal planning.",
+        keyInsight:
+          "Opportunity to combine AI recommendations with practical meal planning.",
       },
       challenge: "Generic recipe recommendations without personalization.",
       solution: "AI-powered recipe discovery with smart meal planning.",
@@ -1265,6 +1292,6 @@ export function getPublishedCaseStudies(): CaseStudy[] {
  */
 export function getCaseStudiesByTag(tag: string): CaseStudy[] {
   return caseStudies.filter((study) =>
-    study.tags.some((t) => t.toLowerCase() === tag.toLowerCase())
+    study.tags.some((t) => t.toLowerCase() === tag.toLowerCase()),
   );
 }
