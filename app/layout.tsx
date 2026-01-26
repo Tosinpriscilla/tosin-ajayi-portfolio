@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID!} />
         <main>{children}</main>
