@@ -6,7 +6,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Priscilla Ajayi - UX/UI Designer Portfolio",
+  title: "Priscilla Adelola - UX/UI Designer Portfolio",
   description:
     "UX/UI Designer specializing in mobile banking, fintech, and user-centered design. View my case studies and design work.",
   icons: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Priscilla Ajayi - UX/UI Designer Portfolio",
+title: "Priscilla Adelola - UX/UI Designer Portfolio",
     description:
       "UX/UI Designer specializing in mobile banking, fintech, and user-centered design.",
     type: "website",

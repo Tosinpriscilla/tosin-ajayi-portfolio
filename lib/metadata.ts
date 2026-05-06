@@ -15,7 +15,7 @@ import { CaseStudy } from './case-studies';
  */
 export function generateCaseStudyMetadata(caseStudy: CaseStudy): Metadata {
   return {
-    title: `${caseStudy.title} | Priscilla Ajayi`,
+    title: `${caseStudy.title} | Priscilla Adelola`,
     description: caseStudy.description,
     openGraph: {
       title: caseStudy.title,
@@ -38,18 +38,18 @@ export function generateCaseStudyMetadata(caseStudy: CaseStudy): Metadata {
  */
 export function generateHomeMetadata(): Metadata {
   return {
-    title: 'Priscilla Ajayi | UX/UI Designer Portfolio',
+    title: 'Priscilla Adelola | UX/UI Designer Portfolio',
     description:
       'Senior UX/UI Designer specializing in user-centered design, accessibility, and creating intuitive digital experiences. View my portfolio of mobile apps, web applications, and design case studies.',
     openGraph: {
-      title: 'Priscilla Ajayi | UX/UI Designer Portfolio',
+      title: 'Priscilla Adelola | UX/UI Designer Portfolio',
       description:
         'Senior UX/UI Designer specializing in user-centered design, accessibility, and creating intuitive digital experiences.',
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Priscilla Ajayi | UX/UI Designer Portfolio',
+      title: 'Priscilla Adelola | UX/UI Designer Portfolio',
       description:
         'Senior UX/UI Designer specializing in user-centered design, accessibility, and creating intuitive digital experiences.',
     },

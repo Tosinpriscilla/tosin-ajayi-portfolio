@@ -61,7 +61,7 @@ export function FinPayHero() {
                             <div className="flex justify-between items-center">
                               <div>
                                 <p className="text-[9px] opacity-90">Welcome back,</p>
-                                <p className="text-xs font-semibold">Priscilla Ajayi</p>
+                                <p className="text-xs font-semibold">Priscilla Adelola</p>
                               </div>
                               <div className="flex gap-1.5">
                                 <div className="w-5 h-5 bg-white/20 rounded-full flex items-center justify-center">

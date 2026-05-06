@@ -74,7 +74,7 @@ export default function HomePage() {
       <footer className="bg-slate-950 text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-slate-400">
-            © {new Date().getFullYear()} Priscilla Ajayi. All rights reserved.
+            © {new Date().getFullYear()} Priscilla Adelola. All rights reserved.
           </p>
         </div>
       </footer>

@@ -1,10 +1,10 @@
-# Priscilla Ajayi - Portfolio Website
+# Priscilla Adelola - Portfolio Website
 
 A modern, responsive portfolio website showcasing UX/UI design work and case studies. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## About
 
-This portfolio highlights the work of Priscilla Ajayi, a Senior UI/UX Designer with 5+ years of experience designing accessible, user-centered digital products across Fintech, Healthcare, and E-commerce sectors.
+This portfolio highlights the work of Priscilla Adelola, a Senior UI/UX Designer with 5+ years of experience designing accessible, user-centered digital products across Fintech, Healthcare, and E-commerce sectors.
 
 ## ✨ Features
 
@@ -158,7 +158,7 @@ Edit `components/Hero.tsx` and `components/AboutMe.tsx` to update:
 
 ## License
 
-This portfolio is for personal use by Priscilla Ajayi. All rights reserved.
+This portfolio is for personal use by Priscilla Adelola. All rights reserved.
 
 ## Support
 

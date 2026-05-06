@@ -45,7 +45,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="mb-6 text-slate-900"
             >
-              Hi, I&apos;m Priscilla Ajayi
+              Hi, I&apos;m Priscilla Adelola
               <br />
               <span className="bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 bg-clip-text text-transparent">
                 Crafting Intuitive & Inclusive

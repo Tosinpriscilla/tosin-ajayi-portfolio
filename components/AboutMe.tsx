@@ -38,7 +38,7 @@ export function AboutMe() {
               <div className="relative rounded-2xl overflow-hidden aspect-square shadow-xl">
                 <ImageWithFallback
                   src="/priscilla-ajayi-profile-picture.jpeg"
-                  alt="Picture of Priscilla Tosin Ajayi"
+                  alt="Picture of Priscilla Tosin Adelola"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
@@ -50,7 +50,7 @@ export function AboutMe() {
                         Senior Product Designer
                       </span>
                     </div>
-                    <h3 className="text-slate-900">Priscilla Ajayi</h3>
+                    <h3 className="text-slate-900">Priscilla Adelola</h3>
                   </div>
                 </div>
               </div>

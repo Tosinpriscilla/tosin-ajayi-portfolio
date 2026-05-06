@@ -23,7 +23,7 @@ export function FinPayThumbnail() {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="text-[7px] opacity-90">Welcome back,</p>
-                    <p className="text-[9px]">Priscilla Ajayi</p>
+                    <p className="text-[9px]">Priscilla Adelola</p>
                   </div>
                   <div className="flex gap-1">
                     <div className="w-4 h-4 bg-white/20 rounded-full flex items-center justify-center">

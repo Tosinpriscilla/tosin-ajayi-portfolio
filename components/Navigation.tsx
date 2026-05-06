@@ -81,7 +81,7 @@ export function Navigation() {
                 <span className="text-white text-sm font-bold">PA</span>
               </div>
               <span className="hidden sm:inline font-semibold">
-                Priscilla Ajayi
+                Priscilla Adelola
               </span>
             </motion.div>
           </Link>
